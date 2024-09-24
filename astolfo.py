@@ -6,7 +6,7 @@ import sys
 BASE_DIR = "C:/boxify/directory/system/packages/apps/"
 
 def download_package(package_name):
-    repo_url = f"https://github.com/ryzenstechdev/astolfo/raw/main/{package_name}"
+    repo_url = f"https://github.com/ryzenstechdev/astolfo_db/raw/main/{package_name}"
     package_path = os.path.join(BASE_DIR, package_name)
     
     try:
